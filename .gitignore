@@ -1,0 +1,36 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# Java / Maven
+target/
+*.jar
+*.war
+*.class
+
+# Lucene Index & Crawl Data
+data/
+lucene-index/
+*.log
+
+# Local Agent Scratch (optional: remove if you want tickets tracked in git)
+.scratch/
